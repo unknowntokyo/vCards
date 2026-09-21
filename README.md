@@ -59,7 +59,7 @@
 
 #### iOS / Web
 - [在 iCloud 通讯录中创建群组](https://support.apple.com/kb/PH2667?locale=zh_CN)
-- [将联系人导入 iCloud 通讯录](https://support.apple.com/kb/ph3605?locale=zh_CN)
+- [将联系人导入 iCloud 通讯录](https://support.apple.com/zh-cn/guide/icloud/mmfba748b2/icloud)
 
 </details>
 
@@ -76,14 +76,14 @@
 ## 参与维护
 
 1. 在 `/data/类别/` 目录下添加 `yaml` 和 `png` 文件
-2. 在根目录执行 `npm test` 检查格式规范
+2. 在根目录执行 `bun install` 安装依赖，再执行 `bun test` 检查格式规范
 3. 提交 Pull Request，等待合并
 
 ---
 
 ## 号码收录说明
 
-鉴于不同地区及运营商的 106 短信推送号段存在差异，项目不做统一收录。建议将本项目作为基础模板，导入联系人后可按下图方式自行补充所需号码：
+鉴于不同地区及运营商的 106 短信推送号段存在差异，项目不收录 106 开头的短信推送号码。建议将本项目作为基础模板，导入联系人后可按下图方式自行补充所需号码：
 
 ![Screenshot](https://user-images.githubusercontent.com/2666735/59747105-ccd33480-92aa-11e9-90e0-93f295dcb504.png)
 
