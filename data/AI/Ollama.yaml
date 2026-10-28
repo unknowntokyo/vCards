@@ -1,5 +1,0 @@
-basic:
-  organization: Ollama
-  workEmail:
-    - hello@ollama.com
-  url: https://ollama.com/
